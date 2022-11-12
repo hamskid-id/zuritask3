@@ -288,6 +288,7 @@ display:none;
 }
 .mobile_align{
   align-items: baseline;
+  justify-content: center;
 }
 .nft_border h6{
   font-size:0.8rem;
