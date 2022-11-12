@@ -4,19 +4,17 @@ export const FooterComponent=()=>{
             <div className="d-flex flex-column footer-bg">
                 <div>
                     <div className="row mobile_align">
-                        <div className="col-md-4 col-lg-3">
+                        <div className="col-md-4 col-lg-3 col-xs-6">
                             <div className="d-flex mb-5">
                                 <span className="mb-0"><img className="badge_img"  src="https://res.cloudinary.com/hamskid/image/upload/v1668255776/Vector_6_f2ap9k.png" alt="object not found"/></span>
                                 <span><h1 className="text-white fw-bold" >Metabnb</h1></span>
                             </div>
                             <div>
                             <div className=" flex-column web-footer justify-content-center align-items-center">
-                                <div className="mb-4">
+                                <div className="mb-5">
                                     <div className="d-flex">
                                         <span className="me-4">
-                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-facebook" viewBox="0 0 16 16">
-                                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                                            </svg></a>
+                                            <a href="#"><img src="https://res.cloudinary.com/hamskid/image/upload/v1668370352/Vector_7_f8xrmc.png"/></a>
                                         </span>
                                         <span className="me-4">
                                             <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-instagram" viewBox="0 0 16 16">
@@ -33,33 +31,33 @@ export const FooterComponent=()=>{
                                 </div>
                                 <div>
                                     <div className="text-white">
-                                    <h6><span className="rounded-circle border border-white copyright">C</span> 2022 Metabnb</h6>
+                                    <h6><img src="https://res.cloudinary.com/hamskid/image/upload/v1668370352/Vector_6_e8f2eg.png" alt="object not found"/> 2022 Metabnb</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>   
                         </div> 
-                        <div className="col-md-4 col-lg-3">
+                        <div className="col-md-4 col-lg-3 col-xs-6">
                             <div className="footer_li">
-                                <h6><a href="#">Community</a></h6>
+                                <h6 className="fw-bold link_head ">Community</h6>
                                 <h6><a href="#">NFTs</a></h6>
                                 <h6><a href="#">Tokens</a></h6>
                                 <h6><a href="#">Landlords</a></h6>
                                 <h6><a href="#">Discord</a></h6>
                             </div>    
                         </div>
-                        <div className="col-md-4 col-lg-3">
+                        <div className="col-md-4 col-lg-3 col-xs-6">
                             <div className="footer_li">
-                                <h6><a href="#">Places</a></h6>
+                                <h6 className="fw-bold link_head">Places</h6>
                                 <h6><a href="#">Castle</a></h6>
                                 <h6><a href="#">Forms</a></h6>
                                 <h6><a href="#">Beach</a></h6>
                                 <h6><a href="#">Learn more</a></h6>
                             </div>   
                         </div>
-                        <div className="col-md-4 col-lg-3">
+                        <div className="col-md-4 col-lg-3 col-xs-6">
                             <div className="footer_li">
-                                <h6><a href="#">Abouts</a></h6>
+                                <h6 className="fw-bold link_head ">Abouts</h6>
                                 <h6><a href="#">RoadMaps</a></h6>
                                 <h6><a href="#">Creators</a></h6>
                                 <h6><a href="#">Career</a></h6>
@@ -70,11 +68,9 @@ export const FooterComponent=()=>{
                     <div className="mobile-footer">
                         <div className="d-flex flex-column">
                             <div>
-                                <div className="d-flex mb-2">
+                                <div className="d-flex mb-5">
                                     <span className="me-4">
-                                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-facebook" viewBox="0 0 16 16">
-                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                                        </svg></a>
+                                        <a href="#"><img src="https://res.cloudinary.com/hamskid/image/upload/v1668370352/Vector_7_f8xrmc.png"/></a>
                                     </span>
                                     <span className="me-4">
                                         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-instagram" viewBox="0 0 16 16">
@@ -90,7 +86,7 @@ export const FooterComponent=()=>{
                                 </div>
                             <div>
                             <div className="text-white">
-                                <h6><span className="rounded-circle border border-white copyright">C</span> 2022 Metabnb</h6>
+                                <h6><img src="https://res.cloudinary.com/hamskid/image/upload/v1668370352/Vector_6_e8f2eg.png" alt="object not found"/> 2022 Metabnb</h6>
                             </div>
                             </div>
                             </div>

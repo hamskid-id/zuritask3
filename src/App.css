@@ -36,6 +36,11 @@ body{
   height: 40vmin;
   pointer-events: none;
 }
+.link_head{
+  font-size: 1.2rem;
+  color: white;
+  line-height: 40px;
+}
 
 .header_container,.section1_container,.section2_container{
   padding: 2rem 4rem;
@@ -43,6 +48,7 @@ body{
 footer a{
   text-decoration: none;
   color:white;
+  line-height: 40px;
 }
 .first_row{
   --bs-gutter-x: 0;
