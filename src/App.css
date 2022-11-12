@@ -5,7 +5,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 .copyright{
-  padding:0px 5px;
+  padding:0px 4px;
 }
 .rent{
   line-height: 70px;
@@ -85,7 +85,8 @@ footer a{
 }
 .btn_connect{
   float: right;
-  font-size: 20px;
+  font-size: 15px;
+  padding: 0.5rem 2rem;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
 .gradient_bg{
@@ -106,6 +107,9 @@ footer a{
   background-clip: text;
   color: transparent;
 }
+.sub_img{
+  width: 100%;
+}
 .footer_li{
   line-height: 30px;
 }
@@ -121,6 +125,10 @@ footer a{
 }
 .learnSection{
   padding:4rem;
+  justify-content: space-between;
+}
+.learn_main_div{
+  width: 50%;
 }
 .learn_btn{
   color:#A02279;
@@ -135,14 +143,14 @@ footer a{
 }
 .location_input{
   padding:0.8rem;
-  height: 3rem;;
+  height: 3.5rem;
+  font-size: 15px;
 }
 .search{
-  height: 3rem;
+  height: 3.5rem;
   margin-left: -1rem;
-  border-radius: 0 15px 15px 0;
-  padding-right:1.5rem;
-  padding-left:1.5rem;
+  font-size: 15px;
+  width:25%;
 }
 .bottom_nft img{
   width:100%;
@@ -203,15 +211,22 @@ footer a{
 
 }
 @media only screen and (min-width:320px) and (max-width:767px){
- 
-  .learn_nft1 {
-    margin-top: 3.5rem;
-    margin-right: -5rem;
-}
-.learn_nft3 {
-    margin-top: 6rem;
-    margin-left: -7rem;
-}
+  .learn_main_div{
+    width: 100%;
+  }
+  .learnSection{
+    flex-direction: column;
+  }
+  .sub_img{
+    width: 85%;
+  }
+  .learnSection{
+    justify-content: center;
+  }
+  .search{
+    width:50%;
+  }
+
   .navbar-light .navbar-brand {
     justify-content: space-around;
   }
@@ -240,9 +255,6 @@ footer a{
 .location_input{
   padding:0.3rem 0.5rem;
   font-size:13px;
-}
-.btn_connect{
-  font-size: 13px;
 }
 .section1_nft_moblie{
   width: 90%;
@@ -277,17 +289,7 @@ display:none;
 }
 }
 @media only screen and (min-width:768px) and (max-width:992px){
-  .learn_nft1 {
-    margin-top: 9rem;
-    margin-right: -9rem;
-}
-.learn_nft3 {
-  margin-top:13rem;
-}
  
-.discover-w {
-    width: 100%;
-}
 .web-footer{
   display:none;
 }
@@ -301,14 +303,6 @@ display:none;
 }
 }
   @media only screen and (min-width:992px) and (max-width:1024px){
-    .learn_nft1 {
-      margin-top: 7rem;
-      margin-right: -6rem;
-  }
-  .learn_nft3 {
-    margin-top:8rem;
-    margin-left: -13rem;
-  }
   .nav-link{
     font-size:15px;
   }

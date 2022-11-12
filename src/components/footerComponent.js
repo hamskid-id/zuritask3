@@ -33,7 +33,7 @@ export const FooterComponent=()=>{
                                 </div>
                                 <div>
                                     <div className="text-white">
-                                        <span className="rounded-circle border border-white copyright">C</span> 2022 Metabnb
+                                    <h6><span className="rounded-circle border border-white copyright">C</span> 2022 Metabnb</h6>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ export const FooterComponent=()=>{
                                 </div>
                             <div>
                             <div className="text-white">
-                                <span className="rounded-circle border border-white copyright">C</span> 2022 Metabnb
+                                <h6><span className="rounded-circle border border-white copyright">C</span> 2022 Metabnb</h6>
                             </div>
                             </div>
                             </div>
