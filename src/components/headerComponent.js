@@ -19,13 +19,13 @@ export const HeaderComponent =()=>{
                                                 <Link className="nav-link text-dark link_li" to="/" >Home</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                <Link className="nav-link text-dark link_li" to="/" >Place To Stay</Link>
+                                                <Link className="nav-link text-dark link_li" to="/PlaceToStay" >Place To Stay</Link>
                                                 </li>
                                                 <li className="nav-item">
                                                 <Link className="nav-link text-dark  link_li" to="/nft" >NFTs</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                <Link className="nav-link text-dark link_li" to="/" >Community</Link>
+                                                <Link className="nav-link text-dark link_li" to="/communty" >Community</Link>
                                                 </li>
                                         </ul>
                                         <span className="navbar-text">

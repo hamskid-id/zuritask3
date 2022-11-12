@@ -9,8 +9,8 @@ export const SecondSection =()=>{
                     api.home_nft.map((nft,index)=>{
                         const {name,mbt,distance,stay_day,img}  = nft;
                         return(
-                            <div key={index} className="col-lg-3 mb-4 col-md-4">
-                                <div className="border nft_border p-4" style={{position:"relative"}}>
+                            <div key={index} className="col-lg-3 col-sm-6  col-md-4">
+                                <div className="border nft_border p-4">
                                     <img className="w-100 mb-3" src={img} alt="object not found"/>
                                         <div className="d-flex flex-column">
                                             <div className="d-flex justify-content-between">

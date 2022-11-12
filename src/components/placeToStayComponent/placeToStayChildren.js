@@ -1,6 +1,6 @@
 import { api } from "../api"
 import { ModalBody } from "../modalbody";
-export const NftChildren=()=>{
+export const PlaceToStayChildren=()=>{
     return(
         <div className="section2_container">
             <div className=" justify-content-between py-2 mb-4 align-items-center web-query">
@@ -21,7 +21,7 @@ export const NftChildren=()=>{
                     api.nft_collections.map((nft,index)=>{
                         const {name,mbt,distance,stay_day,img}  = nft;
                         return(
-                            <div key={index} className="col-lg-3 mb-4 col-md-4">
+                            <div key={index} className="col-lg-3 mb-4 col-md-4 col-sm-6">
                                 <div className="border nft_border p-4">
                                     <img className="w-100 mb-3" src={img} alt="object not found"/>
                                         <div className="d-flex flex-column">
