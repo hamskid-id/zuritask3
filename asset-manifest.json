@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zuritask3/static/css/main.768055b3.css",
+    "main.js": "/zuritask3/static/js/main.5d90bd02.js",
+    "static/js/787.28cb0dcd.chunk.js": "/zuritask3/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/zuritask3/index.html",
+    "main.768055b3.css.map": "/zuritask3/static/css/main.768055b3.css.map",
+    "main.5d90bd02.js.map": "/zuritask3/static/js/main.5d90bd02.js.map",
+    "787.28cb0dcd.chunk.js.map": "/zuritask3/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.768055b3.css",
+    "static/js/main.5d90bd02.js"
+  ]
+}
