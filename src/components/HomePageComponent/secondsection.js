@@ -15,7 +15,7 @@ export const SecondSection =()=>{
                                         <div className="d-flex flex-column">
                                             <div className="d-flex justify-content-between">
                                                 <h6>{name}</h6>
-                                                <h6>{mbt}MBT per night</h6>
+                                                <h6 className='fw-bold'>{mbt}MBT per night</h6>
                                             </div>
                                             <div className="d-flex justify-content-between">
                                                 <h6>{distance}kw away</h6>
