@@ -10,8 +10,8 @@ export const FirstSection =()=>{
                         <div className="rent display-5 fw-bold mb-4">Rent a <span className="gradient_color">Place</span> away from <span className="gradient_color">Home</span> in the <span className="gradient_color">Metaverse</span></div>
                         <div className="mb-4"><h6 className="provide">we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</h6></div>
                         <form className="d-flex align-items-center">
-                            <input className=" location_input w-75 rounded me-0" type="text" placeholder="Search For Location"/>
-                            <button className="btn btn-md btn_connect search text-white w-25 ms-0">Search</button>
+                            <input className=" location_input w-75 me-0 nft_border" type="text" placeholder="Search For Location"/>
+                            <button className="btn btn-md btn_connect search text-white w-25">Search</button>
                         </form>
                     </div>
                 </div>

@@ -2,9 +2,7 @@
   text-align: center;
 }
 body{
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .copyright{
   padding:0px 5px;
@@ -49,11 +47,11 @@ footer a{
 .first_row{
   --bs-gutter-x: 0;
 }
-.mobile-query{
-  display: none;
-}
 .web-query{
   display: flex;
+  flex-wrap: wrap;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 .head-badge{
   background-image: linear-gradient(91.47deg, #DC3E88 18.25%, #B840AE 43.34%, #843FE8 78.18%);
@@ -141,6 +139,8 @@ footer a{
 }
 .search{
   height: 3rem;
+  margin-left: -1rem;
+  border-radius: 0 15px 15px 0
 }
 .bottom_nft img{
   width:100%;
@@ -183,6 +183,10 @@ footer a{
   }
 }
 @media only screen and (min-width:320px) and (max-width:991px){
+  .web-query{
+    padding-right: 0;
+    padding-left: 0;
+  }
   .section1_nft{
     justify-content:center;
   }
@@ -199,14 +203,7 @@ footer a{
   }
 
 }
-@media only screen and (min-width:320px) and (max-width:768px){
-  .web-query{
-    display: none;
-  }
-  .mobile-query{
-    display: block;
-    width: fit-content;
-  }
+@media only screen and (min-width:320px) and (max-width:767px){
  
   .learn_nft1 {
     margin-top: 3.5rem;
@@ -280,7 +277,7 @@ display:none;
   text-align: justify;
 }
 }
-@media only screen and (min-width:769px) and (max-width:992px){
+@media only screen and (min-width:768px) and (max-width:992px){
   .learn_nft1 {
     margin-top: 9rem;
     margin-right: -9rem;

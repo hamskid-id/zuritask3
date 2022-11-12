@@ -3,7 +3,7 @@ import { ModalBody } from "../modalbody";
 export const NftChildren=()=>{
     return(
         <div className="section2_container">
-            <div className=" justify-content-between px-5 py-2 mb-4 align-items-center web-query">
+            <div className=" justify-content-between py-2 mb-4 align-items-center web-query">
                 <h6>Restaurant</h6>
                 <h6>Cottage</h6>
                 <h6>Castle</h6>
@@ -12,22 +12,9 @@ export const NftChildren=()=>{
                 <h6>off-grid</h6>
                 <h6>Farm</h6>
                 <button className="btn border rounded">
-                    <h6>Location <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  width="15" height="15">
-                        <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></h6>
+                   Location <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  width="15">
+                        <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
                 </button>
-            </div>
-            <div className="mobile-query justify-content-between w-100 px-4 mb-4">
-                <select className="form-select" aria-label="Default select example">
-                    <option selected>Query nfts</option>
-                    <option value="1"><h6>Restaurant</h6></option>
-                    <option value="2"><h6>Cottage</h6></option>
-                    <option value="3"><h6>Castle</h6></option>
-                    <option value="1"><h6>fantast City</h6></option>
-                    <option value="2"> <h6>beach</h6></option>
-                    <option value="3"><h6>Carbins</h6></option>
-                    <option value="1"><h6>off-grid</h6></option>
-                    <option value="2"><h6>Farm</h6></option>
-                </select>
             </div>
             <ModalBody/>
             <div className="row w-100 m-auto">
