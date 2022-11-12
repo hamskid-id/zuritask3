@@ -1,12 +1,159 @@
 .App {
   text-align: center;
 }
-
+body{
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+.copyright{
+  padding:0px 5px;
+}
+.rent{
+  line-height: 70px;
+}
+.nft_border{
+  border-radius: 15px;
+}
+.provide{
+  line-height: 30px;
+}
+.mobile-footer{
+  display: none;
+}
+.web-footer{
+  display: block;
+}
+.nft_img{
+  margin-bottom: 0.6rem;
+}
+.nft_img_right{
+  margin-left: 0.6rem;
+}
+.footer-bg{
+  background-color: black;
+  padding:4rem 5rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+.header_container,.section1_container,.section2_container{
+  padding: 2rem 4rem;
+}
+footer a{
+  text-decoration: none;
+  color:white;
+}
+.first_row{
+  --bs-gutter-x: 0;
+}
+.mobile-query{
+  display: none;
+}
+.web-query{
+  display: flex;
+}
+.head-badge{
+  background-image: linear-gradient(91.47deg, #DC3E88 18.25%, #B840AE 43.34%, #843FE8 78.18%);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 0.3rem;
+}
+.section1_nft{
+  justify-content: center;
+}
+.v{
+  display: flex;
+}
+.link_li{
+  text-decoration: none;
+  font-size: 17px;
+}
+.discover-w{
+  width:60%;
+  line-height: 30px;
+}
+.modal_choose{
+  font-size:14px;
+  text-align: left;
+}
+.modal_round{
+  border-radius: 11px;
+}
+.form-select{
+  width:fit-content;
+}
+.btn_connect{
+  float: right;
+  font-size: 20px;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+.gradient_bg{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+.provide{
+  font-size:20px;
+}
+.bn{
+  color: mediumvioetred;
+}
+.nft_border h6{
+  font-size:1rem;
+  text-align:start;
+}
+.gradient_color{
+  background-image: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  background-clip: text;
+  color: transparent;
+}
+.footer_li{
+  line-height: 30px;
+}
+.bottom_left_nft{
+  margin-left: -10rem;
+  margin-top: 5rem;
+}
+.w-60{
+  width:60%;
+}
+.bottom_nft{
+  margin-top:-11.5rem;
+}
+.learnSection{
+  padding:4rem;
+}
+.learn_btn{
+  color:#A02279;
+  background-color: white;
+}
+
+
+.navbar-expand-lg .navbar-nav {
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 50%;
+}
+.location_input{
+  padding:0.8rem;
+  height: 3rem;;
+}
+.search{
+  height: 3rem;
+}
+.bottom_nft img{
+  width:100%;
+}
+.learn_nft1{
+  margin-top:11rem;margin-right:-15rem; z-index:1;
+}
+.learn_nft3{
+  margin-top:17rem;margin-left:-20rem; z-index:1;
+}
+.learn_nft img{
+  width:100%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -23,7 +170,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +182,136 @@
     transform: rotate(360deg);
   }
 }
+@media only screen and (min-width:320px) and (max-width:991px){
+  .navbar-expand-lg .navbar-nav {
+    justify-content: flex-start;
+    width: 100%;
+    padding: 1rem;
+  }
+  .collapse{
+    background: white;
+  }
+  .btn_connect {
+    margin: 1rem;
+  }
+
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+  .web-query{
+    display: none;
+  }
+  .mobile-query{
+    display: block;
+    width: fit-content;
+  }
+ 
+  .learn_nft1 {
+    margin-top: 3.5rem;
+    margin-right: -5rem;
+}
+.learn_nft3 {
+    margin-top: 6rem;
+    margin-left: -7rem;
+}
+  .navbar-light .navbar-brand {
+    justify-content: space-around;
+  }
+ .section1_container, .section2_container {
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+.header_container{
+  padding:0;
+}
+.head-badge{
+  font-size:22px;
+
+  margin-top: 0.5rem;
+}
+.badge_img{
+  width:75%;
+}
+.rent {
+  line-height: 60px;
+  margin-bottom: 0;
+}
+.provide {
+  font-size: 16px;
+}
+.location_input{
+  padding:0.3rem 0.5rem;
+  font-size:13px;
+}
+.btn_connect{
+  font-size: 13px;
+}
+.section1_nft_moblie{
+  width: 90%;
+  margin: 0 auto;
+}
+.learnSection{
+  padding:2rem;
+  text-align: center;
+}
+.discover-w {
+  width: 100%;
+  
+}
+.learn_btn{
+  font-size: 13px;
+}
+.footer_li{
+  text-align: start;
+}
+.web-footer{
+display:none;
+}
+.mobile-footer{
+  display: block;
+}
+.mobile_align{
+  align-items: baseline;
+}
+.nft_border h6{
+  font-size:0.8rem;
+  text-align: justify;
+}
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+  .learn_nft1 {
+    margin-top: 9rem;
+    margin-right: -9rem;
+}
+.learn_nft3 {
+  margin-top:13rem;
+}
+ 
+.discover-w {
+    width: 100%;
+}
+.web-footer{
+  display:none;
+}
+  .mobile-footer{
+    display: block;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+  .nft_border h6, .web-query h6 {
+    font-size: 0.7rem;
+}
+}
+  @media only screen and (min-width:992px) and (max-width:1024px){
+    .learn_nft1 {
+      margin-top: 7rem;
+      margin-right: -6rem;
+  }
+  .learn_nft3 {
+    margin-top:8rem;
+    margin-left: -13rem;
+  }
+  .nav-link{
+    font-size:15px;
+  }
+  }
+
