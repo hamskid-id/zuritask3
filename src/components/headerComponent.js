@@ -25,7 +25,7 @@ export const HeaderComponent =()=>{
                                                 <Link className="nav-link text-dark  link_li" to="/nft" >NFTs</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                <Link className="nav-link text-dark link_li" to="/communty" >Community</Link>
+                                                <Link className="nav-link text-dark link_li" to="/community" >Community</Link>
                                                 </li>
                                         </ul>
                                         <span className="navbar-text">
