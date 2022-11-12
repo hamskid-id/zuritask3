@@ -140,7 +140,9 @@ footer a{
 .search{
   height: 3rem;
   margin-left: -1rem;
-  border-radius: 0 15px 15px 0
+  border-radius: 0 15px 15px 0;
+  padding-right:1.5rem;
+  padding-left:1.5rem;
 }
 .bottom_nft img{
   width:100%;
@@ -197,9 +199,6 @@ footer a{
   }
   .collapse{
     background: white;
-  }
-  .btn_connect {
-    margin: 1rem;
   }
 
 }
